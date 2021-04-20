@@ -70,7 +70,7 @@ html {
     margin-bottom: em(40);
     position: absolute;
     top: em(80);
-    left: em(768);
+    right: 0;
 
     @media screen and (max-width: 770px) and (orientation: portrait) {
       position: relative;
@@ -136,7 +136,7 @@ html {
     }
 
     &--hint {
-      width: em(232);
+      width: em(356);
     }
 
     @media screen and (max-width: 770px) and (orientation: portrait) {
